@@ -9,7 +9,7 @@ link = request.LAN("lan")
 
 # Create a XenVM
 for i in range(2):
-   if i == 0; 
+   if i == 0:
       node = request.XenVM("control")
    else:
        node = request.XenVM("host")
